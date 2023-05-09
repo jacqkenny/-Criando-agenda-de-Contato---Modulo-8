@@ -17,12 +17,12 @@ header {
 }
 
 header img {
-    height: 36px;
+    height: 50px;
     margin-right: 16px;
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -41,7 +41,7 @@ form {
 }
 
 form input {
-    font-size: 24px;
+    font-size: 20px;
     background-color: #fff;
     border: none;
     border-bottom: 2px solid #000;
@@ -57,3 +57,22 @@ form button {
     cursor:pointer;
     padding: 8px;
 }
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding:16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 8px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: px solid rgba (0,0,0,01);
+}
+
