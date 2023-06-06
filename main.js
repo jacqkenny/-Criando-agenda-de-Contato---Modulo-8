@@ -8,8 +8,8 @@ form.addEventListener('submit', function(e) {
     const inputTelefoneContato = document.getElementById('telefone-contato');
 
     let linha = '<tr>';
-    linha += `<td>${inputNomeContato.Value}</td)`;
-    linha += `<td>${inputTelefoneContato.Value}</td)`;
+    linha += `<td>${inputNomeContato.value}</td>`;
+    linha += `<td>${inputTelefoneContato.value}</td>`;
     linha += '</tr>';
 
     linhas += linha;
@@ -17,6 +17,6 @@ form.addEventListener('submit', function(e) {
     const corpoTabela = document.querySelector('tbody');
     corpoTabela.innerHTML = linhas;
 
-    inputNomeContato.Value = '';
-    inputTelefoneContato.Value = '';
+    inputNomeContato.value = '';git
+    inputTelefoneContato.value = '';
 });
